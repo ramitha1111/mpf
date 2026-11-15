@@ -1,6 +1,7 @@
 name: Wheel Builder
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*'
